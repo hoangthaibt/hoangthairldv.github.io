@@ -95,6 +95,9 @@
       </style>
         <script>
 function dathang(){
+  localStorage.clear();
+    localStorage.setItem("ch", "accepted");
+    localStorage.setItem("p", 1);
     let fname = document.getElementById("fname").value;
     let sdt = document.getElementById("sdt").value;
     const scriptURL = 'https://script.google.com/macros/s/AKfycbyQ4YOowpMzp5GpbHQ5kruEm0YWt-9HeZbBH03vk9MzWRAvCDAU9_tqlJVERy4NGcye/exec'
